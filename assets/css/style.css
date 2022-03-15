@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 600px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: thistle;
+}
+.title {
+  font-size: 50px;
+  color: crimson;
+  position: absolute;
+  top: calc(30%);
+  left: calc(50% - 15%);
+}
+.btn-yes {
+  position: absolute;
+  background-color: blue;
+  width: 120px;
+  height: 60px;
+  color: #fff;
+  border-width: 2px;
+  top: calc(48%);
+  left: calc(50% - 10%);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  border-radius: 8px;
+}
+.btn-no {
+  position: absolute;
+  background-color: red;
+  width: 120px;
+  height: 60px;
+  color: #fff;
+  border-width: 2px;
+  top: calc(48%);
+  left: calc(50%);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  border-radius: 8px;
+}
